@@ -42,7 +42,7 @@ def main(page: ft.Page):
             ft.DataColumn(ft.Text("Email")),
             ft.DataColumn(ft.Text("Contraseña")),
             ft.DataColumn(ft.Text("Fecha")),
-            ft.DataColumn(ft.Text("Ultimo Login")),
+            ft.DataColumn(ft.Text("Ultimo Registro")),
         ]
     )
     columna_datos = ft.Column(

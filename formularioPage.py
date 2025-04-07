@@ -3,10 +3,6 @@ import datetime
 import ddbb
 import flet as ft
 
-
-
-
-
 def main(page : ft.Page):
     page.title = "CONTROL USUARIOS"
 
@@ -45,7 +41,7 @@ def main(page : ft.Page):
                   email_ft,
                   contrasena_ft,
                   fecha_txt,
-                  ft.FilledButton("SELECCIONAR FECHA", on_click=abrir_selector),
+                  ft.FilledButton("SELECCIONAR FECHA NACIMIENTO", on_click=abrir_selector),
                   ft.FilledButton("CREAR USUARIO", on_click=crear_usuarios),
                   volver_btn,
                   ],
